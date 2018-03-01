@@ -1,0 +1,6 @@
+[package]
+name = "ds-red-black-tree"
+version = "0.1.0"
+authors = ["kvey <colton@coltonpierson.com>"]
+
+[dependencies]
