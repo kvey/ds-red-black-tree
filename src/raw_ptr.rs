@@ -5,6 +5,11 @@
 // reference http://cglab.ca/~abeinges/blah/rust-btree-case/
 // https://www.reddit.com/r/rust/comments/3svacd/memory_corruption_of_a_raw_pointer/?st=je8oull8&sh=d9f97f78
 
+
+// TODO: cleanup children references on drop
+// TODO: get_left and right and such should return LeafOrInternal
+// TODO: LeafOrInternal needs some methods similar to Option, such as and_then or unwrap
+
 use std::boxed::Box;
 use std::ptr::NonNull;
 use std::ptr;
